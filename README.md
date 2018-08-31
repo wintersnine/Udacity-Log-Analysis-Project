@@ -37,7 +37,7 @@ This may take a few minutes depending on your internet connection. Once done, lo
 ```
 Change directory to:
 ```
-cd/vagrant 
+ cd /vagrant 
 ```
 
 ## Setting-up the Database

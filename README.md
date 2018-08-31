@@ -26,24 +26,29 @@ Note that the data can be found and downloaded using the following link: https:/
 ## Launching the Virtual Machine
 
 Launch the Vagrant VM inside the Vagrant sub-directory in the downloaded fullstack-nanodegree-vm repository using command:
+
 ```
-  $ vagrant up
+ $ vagrant up
 ```
 This may take a few minutes depending on your internet connection. Once done, log into the database using the following command:
-```
-  $ vagrant ssh
-```
-Change directory to cd/vagrant and look around with the command: ls
 
+```
+ $ vagrant ssh
+```
+Change directory to:
+```cd/vagrant 
+```
 
 ## Setting-up the Database
 
 To load the data to the database, type in the command:
-  $ psql -d news -f newsdata.sql
+``` 
+ $ psql -d news -f newsdata.sql
+```
 
 To run the database type:
 ```
-	$ psql -d news
+$ psql -d news
 ```
 
 ## Running the script
@@ -54,7 +59,6 @@ Within the terminal type in and run:
 ```
 
 After the script runs, the results will reveal the output to the questions asked above.
-
 
 ## Credit 
 
